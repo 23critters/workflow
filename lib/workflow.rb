@@ -1,6 +1,7 @@
 require 'rubygems'
 
 # See also README.markdown for documentation
+module WorkflowGem
 module Workflow
 
   class Specification
@@ -397,4 +398,5 @@ open '#{fname}.pdf'
 
 "
   end
+end
 end
